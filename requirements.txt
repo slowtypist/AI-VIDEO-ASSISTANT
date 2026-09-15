@@ -1,0 +1,41 @@
+# ---------- UI ----------
+streamlit>=1.38.0
+
+# ---------- Audio acquisition ----------
+yt-dlp>=2024.8.6
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+
+# ---------- Transcription (local Whisper) ----------
+openai-whisper>=20231117
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# ---------- Translation (Hindi -> English) ----------
+transformers>=4.44.0
+sentencepiece>=0.2.0
+sacremoses>=0.1.1
+
+# ---------- LLM orchestration (LangChain + Mistral) ----------
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-mistralai>=0.2.0
+mistralai>=1.0.0
+
+# ---------- RAG: vector store + embeddings ----------
+chromadb>=0.5.5
+langchain-chroma>=0.1.4
+langchain-huggingface>=0.1.0
+sentence-transformers>=3.0.1
+
+# ---------- Export (PDF / TXT) ----------
+fpdf2>=2.7.9
+reportlab>=4.2.2
+
+# ---------- General utilities ----------
+python-dotenv>=1.0.1
+numpy>=1.26.4
+pandas>=2.2.2
+tqdm>=4.66.5
+requests>=2.32.3
